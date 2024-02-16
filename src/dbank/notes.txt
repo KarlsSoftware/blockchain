@@ -1,0 +1,16 @@
+dfx start
+dfx deploy (new terminal) to deploy any changes
+npm start for the website
+
+call a function form cmd:
+dfx canister call dbank topUp  (project and function name - the function needs to be public)
+
+in the canister ui:
+dfx canister id __Candid_UI  --> http://127.0.0.1:8000/?canisterId=r7inp-6aaaa-aaaaa-aaabq-cai&id=rrkah-fqaaa-aaaaa-aaaaq-cai
+dfx canister id dbank --> then enter the canister id and paste it in too call the function --> voila 
+
+
+if problems with npm start and webpack:
+
+npm install --save-dev webpack-cli
+npm upgrade --save-dev webpack-cli
